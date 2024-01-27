@@ -1,13 +1,14 @@
 import './Portfolio.css';
+import About from './About';
 
 function Portfolio() {
   return (
     <div className="Portfolio">
       <div className="Portfolio-column Portfolio-sidebar">
-        hello
+        <h1>Anna Lo</h1>
       </div>
       <div className="Portfolio-column Portfolio-main">
-        bye
+        <About />
       </div>
     </div>
   );

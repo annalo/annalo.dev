@@ -1,22 +1,18 @@
 .Portfolio {
   align-items: flex-start;
   display: flex;
-  gap: 15px;
   justify-content: space-around;
 }
 
-.Portfolio > .Portfolio-column {
-  background-color: gray;
-  padding: 15px;
+.Portfolio .Portfolio-column {
+  flex: 1 1 0;
+  padding: 5rem 0;
 }
 
-.Portfolio > .Portfolio-sidebar {
-  flex-grow: 1;
+.Portfolio .Portfolio-sidebar {
   position: sticky;
   top: 0;
 }
 
-.Portfolio > .Portfolio-main {
-  flex-grow: 2;
-  height: 100vh;
+.Portfolio .Portfolio-main {
 }

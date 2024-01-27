@@ -1,0 +1,13 @@
+.ExperienceItem {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ExperienceItem .ExperienceItem-dateRange {
+  flex-grow: 1;
+}
+
+.ExperienceItem .ExperienceItem-details {
+  flex-grow: 2;
+}
