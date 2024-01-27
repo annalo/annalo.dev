@@ -1,6 +1,8 @@
 .App {
   background-color: #191e21;
   color: #d2dce0;
+  line-height: 2;
+  padding: 0 5rem;
 }
 
 .App-logo {
