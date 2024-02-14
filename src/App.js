@@ -1,7 +1,6 @@
 // import logo from './assets/logo.svg';
 import './App.css';
-
-import Portfolio from './Portfolio';
+import Portfolio from './Portfolio/Portfolio';
 
 function App() {
   return (
