@@ -1,33 +1,23 @@
 .ExperienceItem {
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 0 0.5rem;
-  grid-template-areas: 
-    "ExperienceItem-dateRange ExperienceItem-title"
-    ". ExperienceItem-employer"
-    ". ExperienceItem-description"
-    ". ExperienceItem-skills";
+  display: flex;
+  flex-direction: row;
 }
 
-.ExperienceItem-dateRange { 
-  grid-area: ExperienceItem-dateRange; 
-  word-break: break-word;
-}
-.ExperienceItem-title { grid-area: ExperienceItem-title; }
-.ExperienceItem-employer { grid-area: ExperienceItem-employer; }
-.ExperienceItem-description { grid-area: ExperienceItem-description; }
-.ExperienceItem-skills { grid-area: ExperienceItem-skills; }
-
-@media (max-width: 767px) {
-.ExperienceItem {  
-  grid-template-columns: 1fr;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "ExperienceItem-dateRange"
-    "ExperienceItem-title"
-    "ExperienceItem-employer"
-    "ExperienceItem-description"
-    "ExperienceItem-skills";
+@media (max-width: 800px) {
+  .ExperienceItem {  
+    flex-direction: column;
   }
 }
+
+.ExperienceItem-dateRange {
+  width: 30%;
+}
+
+.ExperienceItem-details {
+  width: 70%;
+}
+
+.ExperienceItem-title { }
+.ExperienceItem-employer { }
+.ExperienceItem-description { }
+.ExperienceItem-skills { }

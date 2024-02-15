@@ -2,7 +2,7 @@ import './SkillBadge.css';
 
 function SkillBadge({skill}) {
   return (
-    <span className="SkillBadge">{skill}</span>
+    <span className="SkillBadge" key={skill}>{skill}</span>
   )
 }
 

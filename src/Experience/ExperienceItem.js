@@ -1,4 +1,5 @@
 import './ExperienceItem.css';
+import SkillBadge from './SkillBadge'
 
 function ExperienceItem({
   employer,
@@ -12,32 +13,16 @@ function ExperienceItem({
     <div className="ExperienceItem">
       <div className="ExperienceItem-dateRange">{dateRange}</div>
 
-      <div className="ExperienceItem-title">
-        <strong>{title}</strong>
+      <div className='ExperienceItem-details'>
+        <div className="ExperienceItem-title">{title}</div>
+        <div className="ExperienceItem-company">
+          {employer} // {location}
+        </div>
+        <div className="ExperienceItem-description">{description}</div>
+        <div className="ExperienceItem-skills">
+          {skills.map(skill => <SkillBadge key={skill} skill={skill} />)}
+        </div>
       </div>
-
-      <div className="ExperienceItem-employer">
-        <em>{employer} / {location}</em>
-      </div>
-
-      <div className="ExperienceItem-description">
-        hello
-        <text>{description}</text>
-      </div>
-
-      <div className="ExperienceItem-skills">
-        {skills.map(skill => <span>{skill}</span>)}
-      </div>
-
-
-
-
-
-
-        
-        
-        
-        
     </div>
   );
 }
