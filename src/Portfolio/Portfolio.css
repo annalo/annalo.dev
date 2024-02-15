@@ -1,12 +1,19 @@
 .Portfolio {
   align-items: flex-start;
+  flex-direction: row;
   display: flex;
   justify-content: space-around;
 }
 
+@media (max-width: 800px) {
+  .Portfolio {
+    flex-direction: column;
+  }
+}
+
 .Portfolio .Portfolio-column {
   flex: 1 1 0;
-  padding: 5rem 0;
+  /* padding: 5rem 0; */
 }
 
 .Portfolio .Portfolio-sidebar {

@@ -6,9 +6,8 @@ function Experience() {
   return (
     <div className="Experience">
       {data.experiences.map((item) => (
-        <ExperienceItem item={item} />
+        <ExperienceItem {...item} />
       ))}
-        
     </div>
   );
 }
