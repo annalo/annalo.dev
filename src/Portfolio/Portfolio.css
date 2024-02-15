@@ -13,13 +13,16 @@
 
 .Portfolio .Portfolio-column {
   flex: 1 1 0;
-  /* padding: 5rem 0; */
+  padding: 5rem;
 }
 
 .Portfolio .Portfolio-sidebar {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
+  width: 30%
 }
 
 .Portfolio .Portfolio-main {
+  width: 70%
 }
