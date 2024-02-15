@@ -1,5 +1,5 @@
 import './ExperienceItem.css';
-import SkillBadge from './SkillBadge'
+import SkillsBadge from './SkillsBadge'
 
 function ExperienceItem({
   employer,
@@ -20,7 +20,7 @@ function ExperienceItem({
         </div>
         <div className="ExperienceItem-description">{description}</div>
         <div className="ExperienceItem-skills">
-          {skills.map(skill => <SkillBadge key={skill} skill={skill} />)}
+          {skills.map(skill => <SkillsBadge key={skill} skill={skill} />)}
         </div>
       </div>
     </div>
