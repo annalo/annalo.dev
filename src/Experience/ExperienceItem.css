@@ -1,6 +1,8 @@
 .ExperienceItem {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem 0;
 }
 
 @media (max-width: 800px) {

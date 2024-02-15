@@ -1,7 +1,7 @@
 .Portfolio {
   align-items: flex-start;
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
