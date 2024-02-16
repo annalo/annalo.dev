@@ -1,0 +1,38 @@
+.Portfolio {
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .Portfolio {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Portfolio .Portfolio-column {
+    flex: 1 1 0;
+    padding: 3rem;
+  }
+  
+  .Portfolio .Portfolio-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 30%
+  }
+  
+  .Portfolio .Portfolio-main {
+    width: 70%
+  }
+}
+
+.Portfolio-name {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.Portfolio-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}

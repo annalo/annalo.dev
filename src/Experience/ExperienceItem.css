@@ -1,0 +1,19 @@
+.ExperienceItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+@media (min-width: 940px) {  
+  .ExperienceItem { flex-direction: row; }
+  .ExperienceItem-dateRange { width: 30%; }
+  .ExperienceItem-details { width: 70%; }
+}
+
+.ExperienceItem-dateRange { font-weight: 500; opacity: 0.7; }
+.ExperienceItem-title {  font-weight: 700; }
+.ExperienceItem-company { opacity: 0.7; }
+.ExperienceItem-description { text-align: justify }
+.ExperienceItem-skills { }

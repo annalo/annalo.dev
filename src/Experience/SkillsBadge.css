@@ -1,0 +1,10 @@
+.SkillsBadge {
+  background-color: black;
+  border-radius: 0.3em;
+  color: white;
+  display: inline-block;
+  font-size: 0.7rem;
+  margin: 0 0.2em;
+  padding: 0 0.3em;
+  text-align: center;
+}
