@@ -9,28 +9,28 @@
       "title": "Freelance Web Developer"
     },
     {
-      "employer": "Quri",
-      "dateRange": "Apr 2014 – Jan 2018",
-      "description": "Created internal and client-facing applications, leading projects from intricate data-processing to meticulous pixel perfection. Contributed significantly as both a team member and leader, possessing an in-depth understanding of the company ecosystem.",
+      "employer": "Trax Retail",
+      "dateRange": "Jan 2018 – Dec 2019",
+      "description": "Played a pivotal role in the North American division, leading the engineering team in the substantial task of developing solutions for global data collection. Our responsibility extended to the critical process of transforming and loading data, a key component in enabling access for the company's AI models.",
       "location": "San Francisco",
-      "skills": [],
-      "title": "Software Engineer"
+      "skills": ["JavaScript", "TypeScript", "React", "GraphQL", "Elixir", "Ruby", "RoR", "Postgres", "RabbitMQ", "DDD"],
+      "title": "Senior Software Engineer"
     },
     {
       "employer": "RangeMe",
       "dateRange": "Nov 2015 – Sep 2017",
       "description": "Created a marketing blog on WordPress, seamlessly integrated with the corporate website for consistent branding. Developed engaging landing pages to enhance user engagement and implemented new features and content to the company website. ",
       "location": "San Francisco",
-      "skills": ["JavaScript", "WordPress", "PHP", "Autopilot", "HTML & CSS"],
+      "skills": ["JavaScript", "HTML & CSS", "WordPress", "PHP", "Autopilot"],
       "title": "Freelance Web Developer"
     },
     {
-      "employer": "Trax Retail",
-      "dateRange": "Jan 2018 – Dec 2019",
-      "description": "Played a pivotal role in the North American division, leading the engineering team in the substantial task of developing solutions for global data collection. Our responsibility extended to the critical process of transforming and loading data, a key component in enabling access for the company's AI models.",
+      "employer": "Quri",
+      "dateRange": "Apr 2014 – Jan 2018",
+      "description": "Created internal and client-facing applications, leading projects from intricate data-processing to meticulous pixel perfection. Contributed significantly as both a team member and leader, possessing an in-depth understanding of the company ecosystem.",
       "location": "San Francisco",
-      "skills": [],
-      "title": "Senior Software Engineer"
+      "skills": ["JavaScript", "TypeScript", "React", "GraphQL", "Ruby", "RoR", "Postgres", "RabbitMQ"],
+      "title": "Software Engineer"
     }
   ]
 }
