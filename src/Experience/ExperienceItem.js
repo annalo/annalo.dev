@@ -16,7 +16,7 @@ function ExperienceItem({
       <div className='ExperienceItem-details'>
         <div className="ExperienceItem-title">{title}</div>
         <div className="ExperienceItem-company">
-          {employer + "//" + location}
+          {employer + " // " + location}
         </div>
         <div className="ExperienceItem-description">{description}</div>
         <div className="ExperienceItem-skills">
