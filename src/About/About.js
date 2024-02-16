@@ -14,7 +14,7 @@ function About() {
 
 
 
- My approach to software development is holistic, considering all aspects of a project to create **robust** and **effective** solutions.
+ My approach to software development is holistic, considering all aspects of a project to create robust and effective solutions.
       <p>
         I'm a traveler with a great appreciation for our beautiful blue-green globe 🌏🏔️🏝️. 
         Over the past few years, I've been up to a bunch of stuff, but now I'm 
