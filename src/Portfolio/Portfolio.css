@@ -1,6 +1,6 @@
 .Portfolio {
   flex-direction: column;
-  padding: 3rem;
+  padding: 5rem 10rem;
 }
 
 @media (min-width: 800px) {
