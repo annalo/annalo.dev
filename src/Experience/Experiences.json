@@ -29,7 +29,7 @@
       "dateRange": "APR 2014 – JAN 2018",
       "description": "Created internal and client-facing applications, leading projects from intricate data-processing to meticulous pixel perfection. Contributed significantly as both a team member and leader, possessing an in-depth understanding of the company ecosystem.",
       "location": "San Francisco",
-      "skills": ["JavaScript", "TypeScript", "React", "GraphQL", "Ruby", "RoR", "Postgres", "RabbitMQ"],
+      "skills": ["JavaScript", "Flow Type", "React", "GraphQL", "Ruby", "RoR", "Postgres", "RabbitMQ"],
       "title": "Software Engineer"
     }
   ]
