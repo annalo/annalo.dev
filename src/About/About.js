@@ -8,7 +8,7 @@ function About() {
         specializing in full-stack development with <strong>JavaScript</strong>, <strong>React</strong>, <strong>GraphQL</strong>, <strong>Ruby on Rails</strong>, 
         and <strong>Elixir</strong>. Additionally, I'm skilled in CMS products 
         like <strong>Wordpress</strong> and <strong>Webflow</strong>. I approach 
-        software hollistically, considering all aspects of a project to 
+        software holistically, considering all aspects of a project to 
         create robust and effective solutions.
       </p>
       <p>
