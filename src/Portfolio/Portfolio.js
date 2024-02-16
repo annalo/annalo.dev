@@ -6,11 +6,14 @@ function Portfolio() {
   return (
     <div className="Portfolio">
       <div className="Portfolio-sidebar">
-        <div className="Portfolio-name">Anna Lo</div>
-        <div className="Portfolio-title">Software Developer</div>
-        <About />
+        <div className="Portfolio-container">
+          <div className="Portfolio-name">Anna Lo</div>
+          <div className="Portfolio-title">Software Developer</div>
+          <About />
+        </div>
       </div>
-      <div className="Portfolio-main">
+      
+      <div className="Portfolio-container">
         <Experience />
       </div>
     </div>

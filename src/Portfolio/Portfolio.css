@@ -1,6 +1,5 @@
 .Portfolio {
   flex-direction: column;
-  padding: 5rem 10rem;
 }
 
 @media (min-width: 800px) {
@@ -8,7 +7,7 @@
     align-items: flex-start;
     display: flex;
     flex-direction: row;
-    column-gap: 5rem;
+    column-gap: 2rem;
     justify-content: space-around;
   }
 
@@ -23,6 +22,9 @@
   flex: 1 1 0;
 }
 
+.Portfolio-container {
+  padding: 5rem;
+}
 .Portfolio-name {
   font-weight: bold;
   font-size: 3rem;
