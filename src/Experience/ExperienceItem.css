@@ -1,25 +1,25 @@
 .ExperienceItem {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   margin: 2rem 0;
 }
 
-@media (max-width: 800px) {
-  .ExperienceItem {  
-    flex-direction: column;
+@media (min-width: 940px) {  
+  .ExperienceItem {
+    flex-direction: row;
+  }
+
+  .ExperienceItem-dateRange {
+    width: 30%;
+  }
+  
+  .ExperienceItem-details {
+    width: 70%;
   }
 }
 
-.ExperienceItem-dateRange {
-  width: 30%;
-}
-
-.ExperienceItem-details {
-  width: 70%;
-}
-
-.ExperienceItem-title { }
-.ExperienceItem-employer { }
+.ExperienceItem-title {  font-weight: bold; }
+.ExperienceItem-company { opacity: 0.7; }
 .ExperienceItem-description { }
 .ExperienceItem-skills { }

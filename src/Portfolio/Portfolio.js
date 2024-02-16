@@ -6,7 +6,8 @@ function Portfolio() {
   return (
     <div className="Portfolio">
       <div className="Portfolio-column Portfolio-sidebar">
-        <h1>Anna Lo</h1>
+        <div className="Portfolio-name">Anna Lo</div>
+        <div className="Portfolio-title">Software Developer</div>
         <About />
       </div>
       <div className="Portfolio-column Portfolio-main">

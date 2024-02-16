@@ -1,23 +1,6 @@
 .App {
   background-color: #191e21;
   color: #d2dce0;
-  font-size: 14px;
-  line-height: 2;
-}
-
-@media (max-width: 480px) {
-  .App { padding: 3rem; }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: #61dafb;
+  font-size: calc(2vmin);
+  line-height: 1.6;
 }
