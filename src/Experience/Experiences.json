@@ -11,7 +11,7 @@
     {
       "employer": "Trax Retail",
       "dateRange": "JAN 2018 – DEC 2019",
-      "description": "Played a pivotal role in the North American division, leading the engineering team in the substantial task of developing solutions for global data collection. My responsibility extended to the critical process of transforming and loading data, a key component in enabling access for the company's AI models.",
+      "description": "Played a pivotal role in the North American division, leading the engineering team in the substantial task of developing solutions for global data collection. Responsibilities extended to the critical process of transforming and loading data, a key component in enabling access for the company's AI models.",
       "location": "San Francisco",
       "skills": ["JavaScript", "TypeScript", "React", "GraphQL", "Elixir", "Phoenix", "Ruby", "RoR", "Postgres", "RabbitMQ", "DDD"],
       "title": "Senior Software Engineer"
