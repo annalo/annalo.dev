@@ -10,22 +10,11 @@
   flex: 1 1 0px; 
   padding: 1rem 3rem;
 }
-
-.Portfolio-sidebar {
-  padding: 5rem;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.Portfolio-container {
-  padding: 5rem;
+.Portfolio h3 {
+  display: none;
 }
 
 @media (max-width: 1024px) {
-  .Portfolio > * {
-    padding: 2rem;
-  }
   .Portfolio-sidebar {
     flex-grow: 1
   }
@@ -38,8 +27,17 @@
   .Portfolio {
     flex-direction: column;
   }
-  .Portfolio > * { 
-    flex: 1 1 0px; 
-    padding: 1rem 3rem;
-  }  
+  .Portfolio h3 {
+    display: block;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 900px) {
+  .Portfolio-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
 }

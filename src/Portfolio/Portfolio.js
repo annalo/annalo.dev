@@ -1,5 +1,6 @@
 import './Portfolio.css';
 import Sidebar from '../Sidebar/Sidebar';
+import About from '../About/About';
 import Experience from '../Experience/Experience';
 
 function Portfolio() {
@@ -10,6 +11,7 @@ function Portfolio() {
       </div>
       
       <div className="Portfolio-container">
+        <About />
         <Experience />
       </div>
     </div>

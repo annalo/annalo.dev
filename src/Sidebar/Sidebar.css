@@ -1,15 +1,25 @@
+.Sidebar {
+}
+
 .Sidebar-name {
-  font-weight: bold;
   font-size: 3rem;
+  font-weight: bold;
 }
 
 .Sidebar-title {
-  font-weight: bold;
   font-size: 1.3rem;
 }
 
-.Sidebar-menu {
+.Sidebar-summary {
+  padding: 5rem 0;
+}
 
+.Sidebar-menu {
+  font-size: 0.9ren;
+  font-weight: 600;
+  padding: 5rem 0;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 @media (max-width: 900px) {
