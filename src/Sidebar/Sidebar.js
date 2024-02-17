@@ -1,13 +1,13 @@
 import './Sidebar.css';
-import SideBarMenu from './SidebarMenu';
+import About from '../About/About';
+
 
 function Sidebar () {
   return (
     <div className="Sidebar">
       <div className="Sidebar-name">Anna Lo</div>
       <div className="Sidebar-title">Software Engineer</div>
-
-      <SideBarMenu />
+      <About />
     </div>
   )
 }
