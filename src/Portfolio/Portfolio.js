@@ -1,16 +1,12 @@
 import './Portfolio.css';
-import About from '../About/About';
+import Sidebar from '../Sidebar/Sidebar';
 import Experience from '../Experience/Experience';
 
 function Portfolio() {
   return (
     <div className="Portfolio">
       <div className="Portfolio-sidebar">
-        <div className="Portfolio-container">
-          <div className="Portfolio-name">Anna Lo</div>
-          <div className="Portfolio-title">Software Developer</div>
-          <About />
-        </div>
+          <Sidebar />
       </div>
       
       <div className="Portfolio-container">
