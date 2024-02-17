@@ -5,7 +5,7 @@ import data from './Experiences.json';
 function Experience() {
   return (
     <div className="Experience">
-      <h3>Experience</h3>
+      <h4>Experience</h4>
 
       {data.experiences.map((item, idx) => (
         <ExperienceItem key={`experienceItem${idx}`} {...item} />

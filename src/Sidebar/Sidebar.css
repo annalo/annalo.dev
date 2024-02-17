@@ -2,7 +2,7 @@
 }
 
 .Sidebar-name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -10,14 +10,11 @@
   font-size: 1.3rem;
 }
 
-.Sidebar-summary {
-  padding: 5rem 0;
-}
-
 .Sidebar-menu {
-  font-size: 0.9ren;
+  font-size: 0.9rem;
   font-weight: 600;
   padding: 5rem 0;
+  letter-spacing: .1rem;
   text-align: right;
   text-transform: uppercase;
 }

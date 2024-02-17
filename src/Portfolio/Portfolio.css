@@ -10,24 +10,15 @@
   flex: 1 1 0px; 
   padding: 1rem 3rem;
 }
-.Portfolio h3 {
+.Portfolio h4 {
   display: none;
-}
-
-@media (max-width: 1024px) {
-  .Portfolio-sidebar {
-    flex-grow: 1
-  }
-  .Portfolio-container {
-    flex-grow: 2;
-  }
 }
 
 @media (max-width: 900px) {
   .Portfolio {
     flex-direction: column;
   }
-  .Portfolio h3 {
+  .Portfolio h4 {
     display: block;
     letter-spacing: .1rem;
     text-transform: uppercase;
@@ -39,5 +30,11 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+  }
+  .Portfolio-sidebar {
+    flex-grow: 1
+  }
+  .Portfolio-container {
+    flex-grow: 2;
   }
 }
