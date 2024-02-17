@@ -6,27 +6,27 @@
 }
 
 .Portfolio > * { 
-  flex: 1 1 0; 
+  flex: 1 1 auto;
+  padding: 2em; 
 }
 
-.Portfolio h4 {
-  display: none;
-}
-
-.Portfolio-sidebar {
-  padding: 6em;  
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.Portfolio-container {
-  padding-right: 6em;
-  padding-top: 6em;
-}
-
-.Portfolio-container > * {
-  margin-bottom: 6em;
+@media (min-width: 769) {
+  .Portfolio h4 {
+    display: none;
+  }
+  .Portfolio-sidebar {
+    padding: 6em;  
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .Portfolio-container {
+    padding-right: 6em;
+    padding-top: 6em;
+  }
+  .Portfolio-container > * {
+    margin-bottom: 6em;
+  }
 }
 
 @media (max-width: 1024px) {
