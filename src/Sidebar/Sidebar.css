@@ -1,0 +1,20 @@
+.Sidebar-name {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.Sidebar-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.Sidebar-menu {
+
+}
+
+@media (max-width: 900px) {
+  .Sidebar-menu { 
+    display: 
+    none
+  }
+}
