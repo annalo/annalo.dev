@@ -1,10 +1,11 @@
-.Sidebar {
-  margin-left: 6rem;
-}
 .Sidebar-name {
   font-size: 2.5rem;
   font-weight: bold;
 }
 .Sidebar-title {
   font-size: 1.3rem;
+}
+
+img {
+  color: white;
 }
