@@ -1,6 +1,5 @@
 .Sidebar {
-  height: 100%;
-  
+  padding: 5rem;
 }
 @media (min-width: 769px) {
   .Sidebar {

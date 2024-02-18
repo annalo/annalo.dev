@@ -2,18 +2,19 @@
   align-items: flex-start;
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  gap: 5rem;
   justify-content: space-around;
   padding: 0 5rem;
 }
 .Portfolio > * { 
   flex: 1 1 0;
-  padding-top: 5rem;
+}
+.Portfolio-container {
+  padding: 5rem;
 }
 
 @media (min-width: 769px) {
   .Portfolio h4 { display: none; }
-  .Portfolio-container > * { margin-bottom: 6em; }
 }
 
 @media (max-width: 768px) {
