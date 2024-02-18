@@ -9,7 +9,6 @@
   padding: 5rem;
 }
 
-
 @media (min-width: 769px) {
   .Portfolio h4 { display: none; }
 }
@@ -17,9 +16,6 @@
 @media (max-width: 768px) {
   .Portfolio { 
     flex-direction: column; 
-  }
-  .Portfolio > * { 
-    padding: 2rem;
   }
   .Portfolio h4 {
     display: block;
