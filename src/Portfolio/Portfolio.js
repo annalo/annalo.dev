@@ -1,5 +1,7 @@
 import './Portfolio.css';
+
 import Sidebar from '../Sidebar/Sidebar';
+
 import Experience from '../Experience/Experience';
 
 function Portfolio() {

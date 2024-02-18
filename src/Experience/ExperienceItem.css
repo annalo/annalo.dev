@@ -15,7 +15,13 @@
 .ExperienceItem-skills { font-weight: 500 }
 
 @media (min-width: 1024px) {  
-  .ExperienceItem { flex-direction: row; }
-  .ExperienceItem-dateRange { width: 30%; }
-  .ExperienceItem-details { width: 70%; }
+  .ExperienceItem { 
+    flex-direction: row;
+  }
+  .ExperienceItem-dateRange { 
+    width: 25%; 
+  }
+  .ExperienceItem-details { 
+    width: 70%; 
+  }
 }

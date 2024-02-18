@@ -3,8 +3,6 @@
 function About() {
   return (
     <div className="About">
-      <h4>About</h4>
-      {/* pic of me */}
       <p>
         👋 I'm a <strong>software engineer</strong> with 8+ years of experience, 
         specializing in full-stack development with <strong>JavaScript</strong>, <strong>React</strong>, <strong>GraphQL</strong>, <strong>Ruby on Rails</strong>, 
@@ -21,7 +19,6 @@ function About() {
         Over the past few years, I've explored various adventures, 
         but now I'm ready to commit to new challenges!
       </p>
-      {/* details and pics */}
   </div>
   );
 }
