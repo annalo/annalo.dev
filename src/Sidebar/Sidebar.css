@@ -11,6 +11,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    height: 40vh;
+    min-height: 40vh;
+    min-width: 25vh;
   }
 }
