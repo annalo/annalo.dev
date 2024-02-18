@@ -28,23 +28,28 @@
 
 /* laptop */
 @media (min-width: 769px) {
-  .Portfolio { gap: 5rem; }
+  .Portfolio { 
+    gap: 5rem;
+    padding: 0 5rem;
+  }
   .Portfolio h4 { display: none; }
   .Portfolio-sidebar { 
     flex: 1 1 0;
     gap: 2rem;
     min-height: 35vh;
+    padding-top: 5rem;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
-  .Portfolio-main { flex: 2 1 0 }
+  .Portfolio-main { 
+    padding-top: 5rem;
+    flex: 2 1 0; 
+  }
 }
 
 /* desktop */
 @media (min-width: 1025px) {
-  .Portfolio-sidebar { 
-    flex: 1 1 0;
-  }
-  .Portfolio-main { flex: 1 1 0 }
+  .Portfolio-sidebar { flex: 1 1 0; }
+  .Portfolio-main {  flex: 1 1 0 }
 }
