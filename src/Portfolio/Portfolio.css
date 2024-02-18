@@ -13,6 +13,8 @@
   font-size: 1.1rem;
 }
 
+.Portfolio-main > * { padding-bottom: 5rem }
+
 /* small screens */
 @media (max-width: 768px) {
   .Portfolio { 
