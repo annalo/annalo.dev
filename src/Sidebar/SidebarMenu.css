@@ -1,14 +1,14 @@
 .SidebarMenu {
-  font-size: 0.9rem;
-  font-weight: 600;
   padding: 5rem 0;
-  letter-spacing: .1rem;
-  text-align: right;
-  text-transform: uppercase;
 }
 
 .SidebarMenu-item {
+  font-size: 0.9rem;
+  font-weight: 600;
   list-style: none;
+  letter-spacing: .1rem;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
