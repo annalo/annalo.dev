@@ -1,8 +1,8 @@
 .SidebarMenu-item {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   list-style: none;
-  letter-spacing: .1rem;
+  letter-spacing: .2rem;
   text-align: right;
   text-transform: uppercase;
 }
