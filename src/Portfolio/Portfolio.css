@@ -2,26 +2,31 @@
   align-items: flex-start;
   display: flex;
   flex-direction: row;
-  gap: 5rem;
   justify-content: space-around;
-  padding: 0 5rem;
 }
 .Portfolio > * { 
   flex: 1 1 0;
-}
-.Portfolio-container {
   padding: 5rem;
 }
+
 
 @media (min-width: 769px) {
   .Portfolio h4 { display: none; }
 }
 
 @media (max-width: 768px) {
-  .Portfolio { flex-direction: column; }
+  .Portfolio { 
+    flex-direction: column; 
+  }
+  .Portfolio > * { 
+    padding: 2rem;
+  }
   .Portfolio h4 {
     display: block;
     letter-spacing: .1em;
     text-transform: uppercase;
+  }
+  .Portfolio-container {
+    padding-top: 0;
   }
 }

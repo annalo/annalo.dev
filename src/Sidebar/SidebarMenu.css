@@ -1,5 +1,4 @@
 .SidebarMenu {
-  padding: 5rem 0;
 }
 
 .SidebarMenu-item {
@@ -13,7 +12,6 @@
 
 @media (max-width: 768px) {
   .SidebarMenu { 
-    display: 
-    none
+    display: none;
   }
 }
