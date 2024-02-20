@@ -2,7 +2,7 @@
 
 function About() {
   return (
-    <div className="About">
+    <div id="about" className="About">
       <h4>About</h4>
       <p>
         👋 I'm a <strong>software engineer</strong> with 8+ years of experience, specializing in full-stack development 
