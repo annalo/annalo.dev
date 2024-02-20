@@ -9,7 +9,7 @@ import Projects from './Projects'
 function Portfolio() {
   return (
     <ScrollProvider>
-      <div className="Portfolio">``
+      <div className="Portfolio">
         <div className='Portfolio-sidebar'>
           <div className="Portfolio-sidebar-name">Anna Lo</div>
           <div className="Portfolio-sidebar-title">Software Engineer</div>
