@@ -1,4 +1,3 @@
-import './Experience.css';
 import Section from './Section';
 import ExperienceItem from './ExperienceItem';
 import data from './Experiences.json';

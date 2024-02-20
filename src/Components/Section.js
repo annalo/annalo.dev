@@ -1,3 +1,4 @@
+import './Section.css';
 import { useContext, useRef, useEffect } from 'react';
 import { ScrollContext } from './ScrollProvider';
 
@@ -13,7 +14,7 @@ const Section = ({ id, children }) => {
   }, [id, sectionRefs]);
 
   return (
-    <section id={id} ref={ref}>
+    <section className='Section' id={id} ref={ref}>
       {children}
     </section>
   );

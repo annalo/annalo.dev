@@ -1,4 +1,3 @@
-import './About.css';
 import Section from './Section';
 
 function About() {
