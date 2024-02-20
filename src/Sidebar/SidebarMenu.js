@@ -1,14 +1,24 @@
 import './SidebarMenu.css';
+import { useContext } from 'react';
+import { ScrollContext } from '../ScrollProvider';
 
 function SidebarMenu () {
+  const { activeSection } = useContext(ScrollContext);
+
   return (
-    <div className="SidebarMenu">
+    <aside className="SidebarMenu">
       <ul>
-        <li className="SidebarMenu-item">About</li>
-        <li className="SidebarMenu-item">Experience</li>
-        <li className="SidebarMenu-item">Projects</li>
+        <li className={activeSection === 'about' ? 'active' : ''}>
+          <a href="#about">About</a>
+        </li>
+        <li className={activeSection === 'experience' ? 'active' : ''}>
+          <a href="#experience">Experience</a>
+        </li>
+        <li className={activeSection === 'projects' ? 'active' : ''}>
+          <a href="#projects">Projects</a>
+        </li>
       </ul>
-    </div>
+    </aside>
   )
 }
 

@@ -1,12 +1,13 @@
 import './Projects.css';
+import Section from '../Section';
 
 function Projects() {
   return (
-    <section id="projects" className="Projects">
+    <Section id='projects'>
       <h4>Projects</h4>
       <p>
       </p>
-  </section>
+  </Section>
   );
 }
 

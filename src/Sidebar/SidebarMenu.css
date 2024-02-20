@@ -1,10 +1,12 @@
-.SidebarMenu-item {
-  font-size: 1rem;
+.SidebarMenu ul li {
   font-weight: 600;
   list-style: none;
   letter-spacing: .2rem;
   text-align: right;
   text-transform: uppercase;
+}
+.SidebarMenu ul li a {
+  color: inherit;
 }
 
 @media (min-width: 769px) {
