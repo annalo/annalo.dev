@@ -2,7 +2,7 @@
 
 function About() {
   return (
-    <div id="about" className="About">
+    <section id="about" className="About">
       <h4>About</h4>
       <p>
         👋 I'm a <strong>software engineer</strong> with 8+ years of experience, specializing in full-stack development 
@@ -17,7 +17,7 @@ function About() {
         I'm an avid traveler with a deep appreciation for our beautiful blue-green globe 🌏🏔️🏝️. Over the 
         past few years, I've explored various adventures, but now I'm ready to commit to new challenges!
       </p>
-  </div>
+  </section>
   );
 }
 

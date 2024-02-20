@@ -1,11 +1,23 @@
 import './Portfolio.css';
-
+import { useEffect } from 'react';
 import SidebarMenu from '../Sidebar/SidebarMenu'
 import About from '../About/About';
 import Experience from '../Experience/Experience';
 import Projects from '../Projects/Projects'
 
 function Portfolio() {
+  useEffect(() => {
+    const targetSections = document.querySelectorAll("section");
+
+    const observer = new IntersectionObserver((entries) => {
+      console.log(entries);
+    });
+
+    targetSections.forEach((section) => {
+      observer.observe(section);
+    });
+  }, []);
+
   return (
     <div className="Portfolio">
       <div className='Portfolio-sidebar'>
@@ -16,7 +28,7 @@ function Portfolio() {
       
       <div className="Portfolio-main">
         <About />
-        <Experience />
+        <Experience/>
         <Projects />
       </div>
     </div>
