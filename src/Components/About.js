@@ -1,5 +1,5 @@
 import './About.css';
-import Section from '../Section';
+import Section from './Section';
 
 function About() {
   return (

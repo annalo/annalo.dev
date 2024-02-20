@@ -1,5 +1,5 @@
 import './Projects.css';
-import Section from '../Section';
+import Section from './Section';
 
 function Projects() {
   return (

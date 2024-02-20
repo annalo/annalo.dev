@@ -1,10 +1,10 @@
 import './Portfolio.css';
-import { ScrollProvider } from '../ScrollProvider';
+import { ScrollProvider } from './ScrollProvider';
 
-import SidebarMenu from '../Sidebar/SidebarMenu'
-import About from '../About/About';
-import Experience from '../Experience/Experience';
-import Projects from '../Projects/Projects'
+import SidebarMenu from './SidebarMenu'
+import About from './About';
+import Experience from './Experience';
+import Projects from './Projects'
 
 function Portfolio() {
   return (

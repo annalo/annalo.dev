@@ -1,6 +1,6 @@
 import './SidebarMenu.css';
 import { useContext } from 'react';
-import { ScrollContext } from '../ScrollProvider';
+import { ScrollContext } from './ScrollProvider';
 
 function SidebarMenu () {
   const { activeSection } = useContext(ScrollContext);
