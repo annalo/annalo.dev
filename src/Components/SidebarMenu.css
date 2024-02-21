@@ -1,3 +1,7 @@
+.SidebarMenu {
+  flex: 4 1 0;
+}
+
 .SidebarMenu ul li {
   font-weight: 600;
   list-style: none;
@@ -15,13 +19,11 @@
   font-size: 1.1em;
 }
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
   .SidebarMenu {
-    position: absolute;
-    bottom: 0; 
-    right: 0;
   }
-}
+} */
+
 @media (max-width: 768px) {
   .SidebarMenu { 
     display: none;

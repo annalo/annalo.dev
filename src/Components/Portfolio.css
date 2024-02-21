@@ -6,13 +6,19 @@
   text-wrap: balance;
 }
 .Portfolio-sidebar {
-  padding: 5rem 0 0 5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 5rem;
 }
 .Portfolio-sidebar-name {
+  flex: 1 1 0;
   font-size: 2.5rem;
   font-weight: 800;
+  padding-top: 5rem
 }
 .Portfolio-sidebar-title {
+  flex: 1 1 0;
   font-size: 1.1rem;
 }
 .Portfolio-main { 
@@ -25,6 +31,7 @@
     flex-direction: column; 
   }
   .Portfolio-sidebar {
+    height: auto;
     padding: 2rem;
   }
   .Portfolio-main { 
@@ -46,12 +53,12 @@
   .Portfolio-sidebar { 
     flex: 1 1 0;
     gap: 2rem;
-    min-height: 35vh;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
   .Portfolio-main { 
-    flex: 2 1 0; 
+    flex: 2 1 0;
+    padding-right: 5rem; 
   }
 }
