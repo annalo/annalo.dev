@@ -17,9 +17,9 @@
   font-weight: 800;
   padding-top: 5rem
 }
-.Portfolio-sidebar-title {
-  flex: 1 1 0;
+.Portfolio-sidebar-name-title {
   font-size: 1.1rem;
+  font-weight: 600;
 }
 .Portfolio-main { 
   padding: 2rem 4rem 0 0;

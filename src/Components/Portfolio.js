@@ -11,8 +11,10 @@ function Portfolio() {
     <ScrollProvider>
       <div className="Portfolio">
         <div className='Portfolio-sidebar'>
-          <div className="Portfolio-sidebar-name">Anna Lo</div>
-          <div className="Portfolio-sidebar-title">Software Engineer</div>
+          <div className="Portfolio-sidebar-name">
+            Anna Lo
+            <div className="Portfolio-sidebar-name-title">Software Engineer</div>
+          </div>
           <SidebarMenu />
         </div>
         
