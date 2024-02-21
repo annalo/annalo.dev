@@ -1,0 +1,107 @@
+{
+  "fullstack": [
+    {
+      "name": "On-demand Automated Translation Service",
+      "description": "I created a self-contained system automating various translation and localization tasks using Elixir, Phoenix, and a third-party translation service, making it easier to manage multilingual content.\nAdditionally, I designed a user-conscious UI to provide on-demand translation solutions, incorporating the translation service into the company's internal application via a secure API layer, with RabbitMQ facilitating asynchronous and reliable communication between services.",
+      "achievements": [
+        "Implemented a dynamic alert system designed to notify users regarding the status of translation requests.",
+        "Enabled scalable operations by incorporating unlimited language support within the system.",
+        "Fully automated Operations's workflow for requesting and managing translations and built a user-friendly platform for managing global translations.",
+        "Created comprehensive technical documentation to ensure accessibility and understanding, facilitating comprehension of the codebase and workflow."
+      ],
+      "challenges": [
+        "Translations with OneSky depend on manual completion and can vary in turnaround times. To fully automate the translation process with OneSky, we needed a mechanism to detect when a translation is finished and seamlessly export it into our system.",
+        "Limited documentations for OneSky API."
+      ]
+    },
+    {
+      "name": "Data-Verification and Audit Tool",
+      "description": "I transitioned the company's data-verification and audit tool from a server-driven Backbone.js monolith Rails application to a standalone real-time application. The engineering goal was to eliminate dependency on the monolith and create a modern, enhanced tool for improved efficiency and usability.\nThe application was rebuilt in React, and the backend logic underwent a complete overhaul. New tools were introduced, enabling users to edit various data types. A robust queue and lock system ensured the fail-proof assignment of datasets to users, preventing any race conditions.",
+      "achievements": [
+        "Built a fully autonomous app, enhancing operation efficiency and dev flexibility.",
+        "Engineered backend logic for heavy data-processing, ensuring seamless handling of various data types.",
+        "Implemented a robust queue and lock system to prevent duplicate audits, enhancing accuracy and efficiency.",
+        "Established tiered authentication and authorization, managing user privileges and access levels effectively."
+      ],
+      "challenges": [
+        "What to keep? What to throw-out?",
+        "Addressing the global usage of the tool and the imperative to prevent duplicate audits necessitated the implementation of a fail-proof solution. Leveraging real-time updates and a meticulously crafted queue and lock system ensured precise data verification and validation, even in complex scenarios."
+      ]
+    }
+  ],
+  "frontend": [
+    {
+      "name": "Data and Analytics Dashboard",
+      "description": "This project demanded extensive effort and cross-team collaboration. The consumer dashboard, crafted as a visual gateway to grant consumers access to insightful data and analytics, was developed concurrently with product discovery and the design process, in addition to the backend data-processing and querying.\nIn handling the fetching, management, and rendering of extensive data, the focus was on building for optimal performance while enhancing the user experience. Key solutions encompassed client-side caching, data normalization, windowing with server-side pagination, query batching, and proactive data fetching.",
+      "achievements": [
+        "Implemented sophisticated data tabulation and advanced chart customization.",
+        "Extensive cross-team collaboration."
+      ],
+      "challenges": [
+        "Coordinating product discovery and API development alongside frontend application development to ensure cohesive progress.",
+        "Major performance issues stemming from large datasets."
+      ]
+    }
+  ],
+  "backend": [
+    {
+      "name": "API Gateway w/ Elixir and Phoenix",
+      "description": "I took a lead role in crafting a robust API Gateway utilizing Elixir. The primary objective was to establish secure and efficient channels, enabling third-party access to the company's internal resources. This initiative entailed the meticulous design and construction of both the API layer and service layer.",
+      "achievements": [
+        "Established a collaborative framework, enabling our team of engineers to seamlessly contribute to the project's success",
+        "Implemented proactive performance tools, including rate-limiting, monitoring and logging, and detailed error handling",
+        "Comprehensive Elixir documentation for internal documentation, along with public REST API documentation with Swagger"
+      ],
+      "challenges": [
+        "TODO!!"
+      ]    
+    },
+    {
+      "name": "Domain-Driven Design",
+      "description": "Redesigned and restructured the company's core application using Domain-Driven Design to closely align the software architecture with the business domain. The primary focus was on enhancing modularity to improve maintainability, facilitate effective communication, and foster a shared understanding among technical and non-technical stakeholders.",
+      "achievements": [
+        "Established a common language between product and engineering teams by applying DDD principles, promoting collaboration across technical and non-technical stakeholders.",
+        "Modularized the application model to enhance maintainability, scalability, and flexibility."
+      ],
+      "challenges": [
+        "Understanding the business domain and the entire tech ecosystem to effectively redesign and integrate.",
+        "Ensuring 100% test coverage to prevent any regressions during refactoring."
+      ],
+      "technologies": ["Ruby on Rails", "Miro"]
+    },
+    {
+      "name": "ETL Pipeline w/ Ruby",
+      "description": "I developed an ETL pipeline using Ruby on Rails and PostgreSQL to provide comprehensive reports and analytics for the consumers. The pipeline involved extracting raw data from multiple sources, dynamically transforming it to meet the required format, and loading it into a suitable database for analysis.\nTo handle the generation of analytics and user reports, I implemented a worker-based system. By utilizing workers and jobs, I ensured efficient processing of tasks and optimized resource utilization. This approach allowed for parallel execution of data analysis tasks, enabling faster generation of reports and analytics.",
+      "achievements": [
+        "TODO"
+      ],
+      "challenges": [
+        "TODO"
+      ]
+    }
+  ],
+  "cms": [
+    {
+      "name": "Fitness E-commerce w/ Online Scheduling",
+      "description": "I built an e-commerce site using Shopify for a gym based in Taiwan. The website was designed to showcase and sell various products related to the gym's offerings. To enhance the customer experience, I integrated MindBody, a scheduling platform, to enable convenient online class scheduling for gym-goers. I leveraged Apiant integration to seamlessly use Shopify as a Point of Sale system, allowing the gym to sell MindBody products and services internationally. To cater to a wider audience, I implemented a dual language feature, providing support for both English and the local language of Taiwan.",
+      "achievements": [
+        "Integrated third-party integration to enable Shopify as a Point of Sale system, facilitating the international sale of MindBody products and services.",
+        "Implemented a dual-language feature to support both English and the local language of Taiwan."
+      ],
+      "challenges": [
+        "The client faced challenges with local scheduling options, prompting our search for a suitable solution. MindBody emerged as the best choice, but its lack of support for Taiwan's payment system required bridging the gap for smooth transactions."
+      ]
+    },
+    {
+      "name": "RangeMe Blog",
+      "description": "I designed and built a marketing blog using WordPress. The blog served as a platform for the company to share valuable marketing insights and updates with its audience. I ensured a seamless integration of flow and design, aligning the blog's appearance with the company's website to maintain a cohesive brand identity.",
+      "achievements": [
+        "Implemented user-friendly content management tools and customizable themes, enabling marketing team to easily maintain and customize the blog.",
+        "Provided tools and features to assist the marketing team with client acquisition."
+      ],
+      "challenges": [
+        "Extended turnaround time due to the engineering team being located in Australia."
+      ]
+    }
+  ]
+}
