@@ -30,7 +30,7 @@
   .Portfolio-main { 
     padding: 2rem;
   }
-  .Portfolio h4 {
+  .Portfolio h2 {
     display: block;
     letter-spacing: .1em;
     text-transform: uppercase;
@@ -42,7 +42,7 @@
   .Portfolio { 
     gap: 5rem;
   }
-  .Portfolio h4 { display: none; }
+  .Portfolio h2 { display: none; }
   .Portfolio-sidebar { 
     flex: 1 1 0;
     gap: 2rem;

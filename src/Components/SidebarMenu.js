@@ -14,9 +14,9 @@ function SidebarMenu () {
         <li className={activeSection === 'experience' ? 'active' : ''}>
           <a href="#experience">Experience</a>
         </li>
-        {/* <li className={activeSection === 'projects' ? 'active' : ''}>
+        <li className={activeSection === 'projects' ? 'active' : ''}>
           <a href="#projects">Projects</a>
-        </li> */}
+        </li>
       </ul>
     </aside>
   )

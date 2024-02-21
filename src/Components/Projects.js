@@ -5,19 +5,19 @@ import ProjectsItem from "./ProjectsItem";
 function Projects() {
   return (
     <Section id='projects'>
-      <h4>Projects</h4>
+      <h2>Projects</h2>
 
       <h5>Fullstack</h5>      
-      {data.backend.map(item => <ProjectsItem {...item} />)}
+      {data.backend.map((item, idx) => <ProjectsItem key={`backend-${idx}`} {...item} />)}
 
       <h5>Frontend</h5>
-      {data.frontend.map(item => <ProjectsItem {...item} />)}
+      {data.frontend.map((item, idx) => <ProjectsItem key={`frontend-${idx}`} {...item} />)}
 
       <h5>Backend</h5>
-      {data.frontend.map(item => <ProjectsItem {...item} />)}
+      {data.frontend.map((item, idx) => <ProjectsItem key={`fullstack-${idx}`} {...item} />)}
 
       <h5>CMS</h5>
-      {data.cms.map(item => <ProjectsItem {...item} />)}
+      {data.cms.map((item, idx) => <ProjectsItem key={`cms-${idx}`} {...item} />)}
   </Section>
   )
 }

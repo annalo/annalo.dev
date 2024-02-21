@@ -5,10 +5,10 @@ import data from './Experiences.json';
 function Experience() {
   return (
     <Section id="experience">
-      <h4>Experience</h4>
+      <h2>Experience</h2>
 
       {data.experiences.map((item, idx) => (
-        <ExperienceItem key={`experienceItem${idx}`} {...item} />
+        <ExperienceItem key={`experienceItem-${idx}`} {...item} />
       ))}
     </Section>
   );

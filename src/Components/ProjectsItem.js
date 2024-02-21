@@ -9,22 +9,23 @@ function Projects({
 }) {
   return (
     <Collapsible trigger={name}>
-      <p>
+      <div className='ProjectsItem-description'>
         {description}
-      </p>
-      <p>
+      </div>
+
+      <div className='ProjectsItem-keyAchievments'>
         <strong>Key Achievements</strong>
         <ul>
-          {achievements.map((achievement) => <li>{achievement}</li>)}
+          {achievements.map((achievement, idx) => <li key={`achievement-${idx}`} >{achievement}</li>)}
         </ul>
-      </p>
+      </div>
 
-      <p>
+      <div className='ProjectsItem-challenges'>
         <strong> Challenges</strong>
         <ul>
-          {challenges.map((challenge) => <li>{challenge}</li>)}
+          {challenges.map((challenge, idx) => <li key={`achievement-${idx}`} >{challenge}</li>)}
         </ul>
-      </p>
+      </div>
     </Collapsible>
   )
 }
