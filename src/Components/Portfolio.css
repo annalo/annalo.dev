@@ -23,7 +23,12 @@
 @media (max-width: 768px) {
   .Portfolio { 
     flex-direction: column; 
-    margin: 2rem;
+  }
+  .Portfolio-sidebar {
+    padding: 2rem;
+  }
+  .Portfolio-main { 
+    padding: 2rem;
   }
   .Portfolio h4 {
     display: block;
