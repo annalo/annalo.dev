@@ -1,9 +1,8 @@
 import './Contacts.css';
-
-import linkedInIcon from '../assets/linkedin-30.png';
-import githubIcon from '../assets/github-30.png';
-import emailIcon from '../assets/email-30.png';
-import instagramIcon from '../assets/instagram-30.png';
+import linkedInIcon from '../assets/linkedin.png';
+import githubIcon from '../assets/github.png';
+import emailIcon from '../assets/email.png';
+import instagramIcon from '../assets/instagram.png';
 
 function Contacts({skill}) {
   return (

@@ -1,22 +1,21 @@
 .Contacts {
   display: flex;
-  justify-content: space-evenly;
-  
+  justify-content: space-between; 
 }
-.Contacts img {
+.Contacts a img {
   max-width: 100%;
 }
-
 /* small screens */
 @media (max-width: 768px) {
   .Contacts {
     padding-top: 2rem;
+    width: 40%;
   }
 }
-
 /* laptop / desktop */
 @media (min-width: 769px) {
   .Contacts {
     padding-bottom: 5rem;
+    width: 60%;
   }
 }
