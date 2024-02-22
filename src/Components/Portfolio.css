@@ -2,7 +2,7 @@
   align-items: flex-start;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   text-wrap: balance;
 }
 .Portfolio-sidebar {
@@ -10,6 +10,7 @@
   flex-direction: column;
   height: 100vh;
   padding: 0 5rem;
+  position:relative;
 }
 .Portfolio-sidebar-name {
   flex: 1 1 0;

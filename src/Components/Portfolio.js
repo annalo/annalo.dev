@@ -1,7 +1,8 @@
 import './Portfolio.css';
 import { ScrollProvider } from './ScrollProvider';
 
-import SidebarMenu from './SidebarMenu'
+import SidebarMenu from './SidebarMenu';
+import Contacts from './Contacts';
 import About from './About';
 import Experience from './Experience';
 // import Projects from './Projects'
@@ -16,6 +17,7 @@ function Portfolio() {
             <div className="Portfolio-sidebar-name-title">Software Engineer</div>
           </div>
           <SidebarMenu />
+          <Contacts />
         </div>
         
         <div className="Portfolio-main">
