@@ -36,9 +36,9 @@
       "name": "API Gateway w/ Elixir and Phoenix",
       "description": "I took a lead role in crafting a robust API Gateway utilizing Elixir. The primary objective was to establish secure and efficient channels, enabling third-party access to the company's internal resources. This initiative entailed the meticulous design and construction of both the API layer and service layer.",
       "achievements": [
-        "Established a collaborative framework, enabling our team of engineers to seamlessly contribute to the project's success",
-        "Implemented proactive performance tools, including rate-limiting, monitoring and logging, and detailed error handling",
-        "Comprehensive Elixir documentation for internal documentation, along with public REST API documentation with Swagger"
+        "Established a collaborative framework, enabling our team of engineers to seamlessly contribute to the project's success.",
+        "Implemented proactive performance tools, including rate-limiting, monitoring and logging, and detailed error handling.",
+        "Comprehensive Elixir documentation for internal documentation, along with public REST API documentation with Swagger."
       ]
     },
     {
@@ -53,7 +53,9 @@
       "name": "ETL Pipeline w/ Ruby",
       "description": "I developed an ETL pipeline using Ruby on Rails and PostgreSQL to provide comprehensive reports and analytics for the consumers. The pipeline involved extracting raw data from multiple sources, dynamically transforming it to meet the required format, and loading it into a suitable database for analysis.",
       "achievements": [
-        "TODO"
+        "Implemented a worker-based system for efficient data processing.",
+        "Optimized resource utilization.",
+        "Enabled parallel execution of data analysis tasks."
       ]
     }
   ],

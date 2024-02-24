@@ -26,10 +26,6 @@ function ProjectsItem({
           <ul>
             {achievements.map((achievement, idx) => <li key={`achievement-${idx}`} >{achievement}</li>)}
           </ul>
-          {/* <strong>Challenges</strong>
-          <ul>
-            {challenges.map((challenge, idx) => <li key={`achievement-${idx}`} >{challenge}</li>)}
-          </ul> */}
         </p>
       ) : null}
 
