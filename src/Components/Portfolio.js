@@ -5,7 +5,7 @@ import SidebarMenu from './SidebarMenu';
 import Contacts from './Contacts';
 import About from './About';
 import Experience from './Experience';
-// import Projects from './Projects'
+import Projects from './Projects'
 
 function Portfolio() {
   return (
@@ -23,7 +23,7 @@ function Portfolio() {
         <div className="Portfolio-main">
           <About />
           <Experience/>
-          {/* <Projects /> */}
+          <Projects />
         </div>
       </div>
     </ScrollProvider>

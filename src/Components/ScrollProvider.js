@@ -14,7 +14,7 @@ export const ScrollProvider = ({ children }) => {
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
-        if (section.offsetTop <= scrollPosition + 100) {
+        if (section.offsetTop <= scrollPosition + 200) {
           currentSection = section.id;
           break;
         }
