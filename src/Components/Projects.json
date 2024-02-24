@@ -51,7 +51,7 @@
     },
     {
       "name": "ETL Pipeline w/ Ruby",
-      "description": "I developed an ETL pipeline using Ruby on Rails and PostgreSQL to provide comprehensive reports and analytics for the consumers. The pipeline involved extracting raw data from multiple sources, dynamically transforming it to meet the required format, and loading it into a suitable database for analysis.\nTo handle the generation of analytics and user reports, I implemented a worker-based system. By utilizing workers and jobs, I ensured efficient processing of tasks and optimized resource utilization. This approach allowed for parallel execution of data analysis tasks, enabling faster generation of reports and analytics.",
+      "description": "I developed an ETL pipeline using Ruby on Rails and PostgreSQL to provide comprehensive reports and analytics for the consumers. The pipeline involved extracting raw data from multiple sources, dynamically transforming it to meet the required format, and loading it into a suitable database for analysis.",
       "achievements": [
         "TODO"
       ]
