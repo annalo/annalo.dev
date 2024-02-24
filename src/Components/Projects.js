@@ -8,13 +8,13 @@ function Projects() {
       <h2>Projects</h2>
 
       <h4>Fullstack</h4>      
-      {data.backend.map((item, idx) => <ProjectsItem key={`backend-${idx}`} {...item} />)}
+      {data.fullstack.map((item, idx) => <ProjectsItem key={`fullstack-${idx}`} {...item} />)}
 
       <h4>Frontend</h4>
       {data.frontend.map((item, idx) => <ProjectsItem key={`frontend-${idx}`} {...item} />)}
 
       <h4>Backend</h4>
-      {data.frontend.map((item, idx) => <ProjectsItem key={`fullstack-${idx}`} {...item} />)}
+      {data.backend.map((item, idx) => <ProjectsItem key={`backend-${idx}`} {...item} />)}
 
       <h4>CMS</h4>
       {data.cms.map((item, idx) => <ProjectsItem key={`cms-${idx}`} {...item} />)}
