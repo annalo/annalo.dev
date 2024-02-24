@@ -1,0 +1,10 @@
+.ProjectsItem h5 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ProjectsItem a {
+  color: #FE5E54;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}

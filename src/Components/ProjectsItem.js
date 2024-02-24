@@ -1,33 +1,43 @@
-import Collapsible from 'react-collapsible';
+import './ProjectsItem.css';
+import { useState } from 'react';
 
-function Projects({
+function ProjectsItem({
   name,
   description,
   achievements,
   challenges,
   technologies
 }) {
+  const [showContent, setContent] = useState(false);
+  const showContentHandler = () => {
+    setContent(!showContent);
+  };
+
   return (
-    <Collapsible trigger={name}>
+    <div className='ProjectsItem'>
+      <h5>{name}</h5>
       <div className='ProjectsItem-description'>
         {description}
       </div>
 
-      <div className='ProjectsItem-keyAchievments'>
-        <strong>Key Achievements</strong>
-        <ul>
-          {achievements.map((achievement, idx) => <li key={`achievement-${idx}`} >{achievement}</li>)}
-        </ul>
-      </div>
+      {showContent ? (
+        <p className='ProjectsItem-content'>
+          <strong>Key Achievements</strong>
+          <ul>
+            {achievements.map((achievement, idx) => <li key={`achievement-${idx}`} >{achievement}</li>)}
+          </ul>
+          {/* <strong>Challenges</strong>
+          <ul>
+            {challenges.map((challenge, idx) => <li key={`achievement-${idx}`} >{challenge}</li>)}
+          </ul> */}
+        </p>
+      ) : null}
 
-      <div className='ProjectsItem-challenges'>
-        <strong> Challenges</strong>
-        <ul>
-          {challenges.map((challenge, idx) => <li key={`achievement-${idx}`} >{challenge}</li>)}
-        </ul>
-      </div>
-    </Collapsible>
+      <a onClick={showContentHandler}>
+        Read {showContent ? "Less ↑" : "More →"} 
+     </a>
+    </div>
   )
 }
 
-export default Projects;
+export default ProjectsItem;

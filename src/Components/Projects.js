@@ -7,16 +7,16 @@ function Projects() {
     <Section id='projects'>
       <h2>Projects</h2>
 
-      <h3>Fullstack</h3>      
+      <h4>Fullstack</h4>      
       {data.backend.map((item, idx) => <ProjectsItem key={`backend-${idx}`} {...item} />)}
 
-      <h3>Frontend</h3>
+      <h4>Frontend</h4>
       {data.frontend.map((item, idx) => <ProjectsItem key={`frontend-${idx}`} {...item} />)}
 
-      <h3>Backend</h3>
+      <h4>Backend</h4>
       {data.frontend.map((item, idx) => <ProjectsItem key={`fullstack-${idx}`} {...item} />)}
 
-      <h3>CMS</h3>
+      <h4>CMS</h4>
       {data.cms.map((item, idx) => <ProjectsItem key={`cms-${idx}`} {...item} />)}
   </Section>
   )
